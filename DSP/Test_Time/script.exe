@@ -1,0 +1,4 @@
+for ((i = 15000 ; i <= 30000 ; i+=1000)); do
+ ./main.exe $i
+ echo "$i"
+done
